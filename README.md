@@ -11,3 +11,19 @@ C:\Users\Atul Krishna Thakur>
 ```
 3. Download the dynamodb zip file from https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html
 4. Extract the dynamodb zip file. Create a dynamodb directory in `D:\dynamodb` drive. Copy all content of extracted directory and paste in `D:\dynamodb`
+5. go to `D:\dynamodb`
+```
+D:\>cd dynamodb
+```
+6. Now run the dynamodb `D:\dynamodb>java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb`
+```
+D:\dynamodb>java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
+Initializing DynamoDB Local with the following configuration:
+Port:   8000
+InMemory:       false
+Version:        3.3.0
+DbPath: null
+SharedDb:       true
+shouldDelayTransientStatuses:   false
+CorsParams:     null
+```
